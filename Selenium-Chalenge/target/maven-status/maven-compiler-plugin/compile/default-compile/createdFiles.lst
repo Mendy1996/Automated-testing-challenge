@@ -1,0 +1,5 @@
+utilities\PropertiesReader.class
+Pages\AcceuilPages.class
+Pages\LoginPages.class
+Pages\BasePage.class
+utilities\DriverManagerFactory.class

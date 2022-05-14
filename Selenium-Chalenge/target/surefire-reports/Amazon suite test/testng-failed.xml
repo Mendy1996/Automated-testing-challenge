@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon suite test]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Amazon(failed)" verbose="0">
+    <parameter name="produit" value="iphone"/>
+    <classes>
+      <class name="Runners.TestRunners">
+        <methods>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- Runners.TestRunners -->
+    </classes>
+  </test> <!-- Amazon(failed) -->
+</suite> <!-- Failed suite [Amazon suite test] -->

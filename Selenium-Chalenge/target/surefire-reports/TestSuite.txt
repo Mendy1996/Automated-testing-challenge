@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.646 s <<< FAILURE! - in TestSuite
+Runners.TestRunners.runScenario["connexion et recherche d'avis sur un produit", "Optional[Automated testing challenge]"](1)  Time elapsed: 2.138 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unexpected error launching Internet Explorer. Browser zoom level was set to 150%. It should be set to 100%
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-LGRLSNCF', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: driver.version: InternetExplorerDriver
+remote stacktrace: 
+
